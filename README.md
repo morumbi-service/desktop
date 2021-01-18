@@ -1,46 +1,57 @@
-# React Electron
+# 📄  Morumbi Service App
 
-*Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router.*
-<br>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Electron](https://electronjs.org/), and [electron-builder](https://github.com/electron-userland/electron-builder).
+<p align="center">
+  <a href="#-o-projeto">PROJETO</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-usando">INSTALAÇÃO</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-usadas">TECNOLOGIAS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#autores">AUTORES</a>
+</p>
 
-## Build Electron App With React - Video Tutorial
-[Video Tutorial at YouTube](https://www.youtube.com/playlist?list=PLASldBPN_pkCXhDdahLI2RIRy1tmGTeit)
 
-## Usage
-1. Clone this repository.
+## 📱 O PROJETO
+
+Um programa desenvolvido em Electron e ReactJS para uma assistência, com o objetivo de auxiliar em suas organizações o app propõe as seguintes funcionalidades:
+
+- [CADASTRAR CLIENTE]
+- [LISTAR CLIENTES]
+- [VER DETALHES DO CLIENTE]
+- [GERAR ORDEM DE SERVIÇO]
+- [LISTAR ORDENS DE SERVIÇO]
+- [VER DETALHES DA ORDEM DE SERVIÇO]
+- [IMPRIMIR ORDEM DE SERVIÇO]
+- [ENVIAR ORDEM DE SERVIÇO POR EMAIL]
+
+## 📲 USANDO
+
+- Clone este repositório;
+
+- Execute:
+```bash
+npm install
 ```
-git clone https://github.com/willjw3/react-electron.git <your-project-name>
+
+- Rodando em desenvolvimento:
+```bash
+npm start
 ```
-2. If you havent already, install Yarn globally.
-```
-npm install -g yarn
-```
-3. Navigate into project root and install dependencies.
-```
-cd <your-project-name> && npm install
-```
-4. Run dev server.
-```
-npm run start
-```
-## Deploy to Desktop
-1. Run the build process
-```
+
+- Gerando build:
+```bash
 npm run build
 ```
-2. Go into your project folder using your file explorer. Navigate to the `dist` folder and open it. Then double-click `<your-project-name>` Setup 0.1.0. Your app should open and there should now be an icon on your desktop for this app.
-
-**Use a Custom Icon**
-
-Add a 256 x 256 .png or .ico image in your public folder. It should be either `icon.ico` or `icon.png`. Update the `icon` property in your `package.json` if necessary. Currently, it uses an image called `icon.png`, which is a graphic of a coffee cup. You'll only see this in production. For more info, see the [electron-builder documentation](https://www.electron.build/icons)
-
-## Contribute
-Feel free to submit an issue or pull request anytime. If a change is made to the codebase with your PR, you'll be listed as a contributor.
-
-### Contributors
-@willjw3 | https://github.com/willjw3
 
 
+    <img src="/public/demo/viewDemo.png" width="1000px;" />
 
 
+## TECNOLOGIAS USADAS
+
+### O projeto foi foi desenvolvido com base nas seguintes tecnoogias:
+
+- [REACTJS](https://reactnative.dev/)
+- [ELECTRON](https://www.electronjs.org/)
+
+# AUTORES
+
+| [<img src="https://avatars0.githubusercontent.com/u/52288792?s=400&u=a150c46bbd7f8cd07176bf8853a234c5075d0bc8&v=4" width="100px;" /><br /><sub><b>Pedro Augusto</b></sub>](https://www.linkedin.com/in/pedro-augusto-ribeiro-marques-47522119a/)<br /> | [<img src="https://avatars0.githubusercontent.com/u/67927910?s=460&u=e6e0e58045bae001fb65410ab53ffa8fa02e4fe2&v=4" width="100px;"/><br /><sub><b>Giovanna Ribeiro</b></sub>](https://www.linkedin.com/in/giovanna-oliveira-306a721b9/)<br /> |
+| :---: | :---: |
