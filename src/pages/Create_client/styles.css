@@ -1,0 +1,175 @@
+#Add-client {
+    height: 100vh;
+}
+
+#Add-client .content {
+    width: 100%;
+    height: 100%;
+    max-width: 686px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#Add-client .content .header {
+    margin-top: 10vh;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#Add-client .content .header a {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Add-client .content .header a:hover {
+    filter: opacity(80%);
+}
+
+#Add-client .content .header h2 {
+    margin-left: 20px;
+    font-size: 3.19vh;
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+#Add-client .content p {
+    margin-left: 20px;
+    font-size: 2.89vh;
+    color: var(--tertiary-color);
+    font-weight: 400;
+}
+
+#Add-client .content .main {
+    margin-top: 7.2vh;
+    margin-bottom: 10vh;
+
+}
+
+#Add-client .content .main form h2 {
+    font-size: 3.19vh;
+    color: var(--tertiary-color);
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+#Add-client .content .main form {
+    width: 53.59vw;
+    margin-top: 2.71vh;
+}
+
+#Add-client .content .main form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+#Add-client .content .main form .field select,
+#Add-client .content .main form .field input[type='text'],
+#Add-client .content .main form .field input[type='email'],
+#Add-client .content .main form .field input[type='number'] {
+    flex: 1;
+    background: #e4e4e4;
+    border-radius: 10px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: var(--primary-color);
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#Add-client .content .main form .field span {
+    font-size: 2.28vh;
+    color: var(--primary-color);
+    margin-bottom: 3px;
+
+}
+
+#Add-client .content .main form .phones-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+#Add-client .content .main form .phones-input .field + .field {
+    margin-left: 40px;
+}
+
+#Add-client .content .main form .first-layer {
+    display: grid;
+
+    grid-template-columns: 1fr 160px;
+    grid-template-areas: 
+        "ADR NUM"
+    ;
+}
+
+#Add-client .content .main form .first-layer #address {
+    grid-area: ADR;
+}
+
+#Add-client .content .main form .first-layer #number {
+    grid-area: NUM;
+}
+
+#Add-client .content .main form .first-layer .field + .field {
+    margin-left: 40px;
+}
+
+
+#Add-client .content .main form .second-layer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Add-client .content .main form .second-layer .field + .field {
+    margin-left: 40px;
+}
+
+#Add-client .content .main form .third-layer {
+    margin-top: 24px;
+
+    display: grid;
+
+    grid-template-columns: 140px 1fr;
+    grid-template-areas: 
+        "UF CT"
+    ;
+}
+
+#Add-client .content .main form .third-layer #uf {
+    grid-area: UF;
+}
+
+#Add-client .content .main form .third-layer #city {
+    grid-area: CT;
+}
+
+#Add-client .content .main form .third-layer .field + .field {
+    margin-left: 40px;
+}
+
+#Add-client .content .main form #cad-button {
+    width: 100%;
+    height: 55px;
+    background: var(--button-color);
+    color: white;
+    font-size: 2.58vh;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#Add-client .content .main form #cad-button:hover {
+    filter: opacity(90%);
+}

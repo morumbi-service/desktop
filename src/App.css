@@ -1,0 +1,144 @@
+:root {
+  --primary-color: #134074;
+  --button-color: #13315C;
+  --tertiary-color: #0B2545;
+  --quaternary-color: #8CC8FF;
+  --background-color: #d3d3d3;
+
+  /* Dar mode colors */
+
+  --dark-background: #0d1b2a;
+  --dark-card: #23364A;
+  --dark-card-secundary: #182B40;
+  --dark-title: #0077b6;
+  --dark-description: #DCDFE5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--tertiary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.Container-page {
+  height: 100vh;
+  margin: 0 7vh 0 48vh;
+}
+
+.Container-page .content {
+  padding-top: 7.9vh;
+}
+
+#welcome-page{
+  height: 100vh;
+}
+
+#welcome-page .content {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-page .content header {
+  margin-top: -10vh;
+  margin-bottom: 10vh;
+}
+
+#welcome-page .content header img {
+    width: 30vh;
+}
+
+#welcome-page .content p {
+  color: var(--tertiary-color);
+  font-size: 3vh;
+  line-height: 5vh;
+  text-align: center;
+  justify-content: center;
+}
+
+#welcome-page .content p b {
+  font-weight: 600;
+  color: var(--tertiary-color);
+}
+
+#welcome-page .content .welcomeDescription {
+  font-size: 2.9vh;
+  font-weight: 300;
+}
+
+#welcome-page a {
+  width: 30%;
+  margin-top: 5vh;
+}
+
+#welcome-page a button {
+  width: 100%;
+  height: 7vh;
+  background: var(--button-color);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.6vh;
+  border: 0;
+  align-self: center;
+  margin-top: 5%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#welcome-page a button:hover {
+  filter: opacity(70%);
+}
+
+@media(max-width: 900px) {
+  #welcome-page .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #welcome-page .content {
+    align-items: center;
+  }
+
+  #welcome-page .content .welcomeText {
+      font-size: 2.6vh;
+  }
+
+  #welcome-page button {
+      height: 50px;
+      width: 100%;
+      font-size: 18px;
+  }
+}
+
+.animation div {
+  border: 2px solid #13315C;
+  border-radius: 30px;
+  width: 70px;
+  height: 70px;
+}

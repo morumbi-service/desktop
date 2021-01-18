@@ -1,0 +1,42 @@
+#Home-Page {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#Home-Page .Container-page .content {
+    display: flex;
+    flex-direction: column;
+}
+
+#Home-Page .Container-page .content header {
+    margin-bottom: 4vh;
+}
+
+#Home-Page .Container-page .content header h2 {
+    font-size: 3.05vh;
+    line-height: 4.50vh;
+    color: var(--tertiary-color);
+}
+
+#Home-Page .Container-page .content header p {
+    font-size: 2.6vh;
+    line-height: 4vh;
+    color: var(--tertiary-color);
+}
+
+#Home-Page .Container-page .content header p b {
+    font-weight: 500;
+}
+
+#Home-Page .Container-page .content .shortcuts {
+    display: flex;
+}
+
+#Home-Page .Container-page .content .services {
+    height: 57.5vh;
+    margin-top: 5vh;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+}

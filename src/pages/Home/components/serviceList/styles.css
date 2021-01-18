@@ -1,0 +1,61 @@
+.service-list-Card {
+    width: 98%;
+    height: 22.96vh;
+    margin-bottom: 2vh;
+    background: rgba(168, 168, 168, 0.5);
+    backdrop-filter: saturate(180%) blur(3px);
+    border-radius: 10px;
+    padding: 2vh;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.service-list-Card .service-list-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.service-list-Card .service-list-header p {
+    font-size:  2.61vh;
+    color: #13315C;
+}
+
+.service-list-Card .service-list-header .red-dot {
+    width: 24px;
+    height: 24px;
+    background-color: #EB3737;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.service-list-Card .service-list-header .green-dot {
+    width: 24px;
+    height: 24px;
+    background-color: #37EB69;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.service-list-Card .service-list-main {
+    margin-top: 1.88vh;
+}
+
+.service-list-Card .service-list-main p {
+    font-size: 2.1vh;
+    color: var(--primary-color);
+}
+
+.service-list-Card .service-list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    float: right;
+}
+
+.service-list-Card .service-list-footer p {
+    color: var(--tertiary-color);
+    line-height: 2.76vh;
+}

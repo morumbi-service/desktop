@@ -1,0 +1,51 @@
+#Client-buttons .buttons-title .text-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 3vh;
+    color: var(--tertiary-color)
+}
+
+#Client-buttons .buttons-main {
+    margin-top: 33%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Client-buttons .buttons-main a {
+    text-decoration: none;
+}
+
+#Client-buttons .buttons-main .button {
+    width: 108px;
+    height: 108px;
+    background: var(--button-color);
+    border-radius: 5px;
+    text-align: start;
+    padding: 9px;
+    margin: 0 20px 0 0;
+    transition: 0.2s;
+}
+
+#Client-buttons .buttons-main a:hover .button {
+    opacity: 90%;
+    transform: translateY(1px);
+    cursor: pointer;
+}
+
+#Client-buttons .buttons-main .button .text-button {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1.5vh;
+}
+
+#Client-buttons .buttons-main .button .count {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}

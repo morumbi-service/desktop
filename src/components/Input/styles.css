@@ -1,0 +1,36 @@
+.searchClient {
+    width: 97%;
+    height: 9.42vh;
+    min-height: 9.42vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19px 0 19px;
+    margin-bottom: 2.32vh;
+    border-radius: 10px;
+    align-items: center;
+    background: rgba(19, 64, 116, 0.25);
+}
+
+.searchClient input {
+    background: transparent;
+    color: #0B2545;
+    width: 90%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    outline: none;
+}
+
+.searchClient input::placeholder {
+    color: #0B2545;
+}
+
+.searchClient svg {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.searchClient svg:hover {
+    opacity: 60%;
+}

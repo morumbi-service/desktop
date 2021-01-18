@@ -1,0 +1,116 @@
+#ClientDitails-Page {
+    display: flex;
+}
+
+#ClientDitails-Page .Container-page {
+    display: flex;
+}
+
+#ClientDitails-Page .Container-page .content {
+    display: flex;
+    flex-direction: column;
+}
+
+#ClientDitails-Page .Container-page .content .main {
+    width: 52vw;
+    padding: 24px 30px;
+    border-radius: 15px;
+    background: #E1E2E3;
+    display: flex;
+    flex-direction: column;
+}
+
+#ClientDitails-Page .Container-page .content .main p {
+    font-size: 1rem;
+    color: var(--button-color);
+}
+
+#Client_Services-list {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+#Client_Services-list ul {
+    width: 100%;
+    height: 37.5vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+#Client_Services-list .service-list-button {
+    width: 97%;
+    text-align: center;
+}
+
+#Client_Services-list button {
+    margin-top: 8px;
+    border: none;
+    transition: 0.2s;
+}
+
+#Client_Services-list button:hover {
+    filter: opacity(90%);
+    cursor: pointer;
+}
+
+#Client_Services-list button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+#Client_Services-list ul li {
+    list-style: none;
+}
+
+#Client_Services-list .service-list-Card {
+    width: 97%;
+    height: 21.78vh;
+    margin-bottom: 2vh;
+    background: #E1E2E3;
+    border-radius: 10px;
+    padding: 2vh 2vh 2vh 2vh;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#Client_Services-list .service-list-Card:hover {
+    filter: opacity(50%);
+}
+
+#Client_Services-list .service-list-Card .service-list-main {
+    margin-top: 0;
+}
+
+#Client_Services-list .service-list-Card .service-list-main p {
+    font-size: 2.61vh;
+    color: var(--button-color);
+}
+
+#Client_Services-list .service-list-Card .service-list-footer {
+    margin-top: 2vh;
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+
+#Client_Services-list .service-list-Card .service-list-main p b {
+    font-weight: 500;
+    color: var(--button-color);
+    line-height: 2.76vh;
+}
+
+#Client_Services-list .service-list-Card .service-list-main p b input {
+    font-weight: 500;
+    color: var(--button-color);
+    font-size: 1rem;
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+#Client_Services-list .service-list-Card .service-list-footer p {
+    color: var(--tertiary-color);
+    line-height: 2.76vh;
+    margin-right: 5px;
+}
