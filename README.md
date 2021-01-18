@@ -40,10 +40,6 @@ npm start
 npm run build
 ```
 
-
-    <img src="/public/demo/viewDemo.png" width="1000px;" />
-
-
 ## TECNOLOGIAS USADAS
 
 ### O projeto foi foi desenvolvido com base nas seguintes tecnoogias:
