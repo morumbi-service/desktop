@@ -60,21 +60,21 @@ const Home = () => {
 
                         <Shortcut
                             title="Adicionar Produto"
-                            link="/create-product"
+                            // link="/create-product"
                         >
                             <Icon icon={washingMachine} color="#ffffff" width="28px" height="28px" />
                         </Shortcut>
 
                         <Shortcut
                             title="Adicionar Nova Peça"
-                            link="/create-machine-part"
+                            // link="/create-machine-part"
                         >
                             <BsGear color="#ffffff" size="24px" height="24px" />
                         </Shortcut>
 
                         <Shortcut
                             title="Novo Pagamento"
-                            link="/create-payment"
+                            // link="/create-payment"
                         >
                             <BsCreditCard color="#ffffff" size="24px" height="24px" />
                         </Shortcut>

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { TiArrowBack } from 'react-icons/ti'
 import { HiOutlineMailOpen, HiOutlinePrinter } from 'react-icons/hi'
-import { motion, AnimatePresence } from "framer-motion";
 
 import LogoHeader from './assets/LogoMB.svg'
 
@@ -14,7 +13,7 @@ import api from '../../services/api'
 const ServiceDetails = () => {
 
     function onSuccess() {
-        window.location.href='http://3.22.224.109:3333/uploads/technical_report.pdf'
+        window.location.href='http://18.233.67.251:3333/uploads/technical_report.pdf'
     }
 
     const { id } = useParams()
